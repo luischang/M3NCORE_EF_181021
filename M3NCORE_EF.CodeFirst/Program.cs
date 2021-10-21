@@ -113,9 +113,6 @@ namespace M3NCORE_EF.CodeFirst
             else
                 Console.WriteLine("No se encontraron coincidencias para la eliminación");
 
-
-
-            Console.WriteLine("Hello World!");
         }
     }
 }
