@@ -4,14 +4,16 @@ using M3NCORE_EF.CodeFirst.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace M3NCORE_EF.CodeFirst.Migrations
 {
     [DbContext(typeof(CopaLibertadoresDBContext))]
-    partial class CopaLibertadoresDBContextModelSnapshot : ModelSnapshot
+    [Migration("20211020232157_n-n Player & Team")]
+    partial class nnPlayerTeam
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

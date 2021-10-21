@@ -18,6 +18,8 @@ namespace M3NCORE_EF.CodeFirst.Models
         [Column(TypeName = "nvarchar(2)")]
         public string Code { get; set; }
 
+        
+
         public virtual List<Player> Player { get; set; }
 
     }

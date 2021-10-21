@@ -18,5 +18,7 @@ namespace M3NCORE_EF.CodeFirst.Models
         [Column(TypeName = "nvarchar(60)")]
         public string Country { get; set; }
 
+        public virtual List<Player> Player { get; set; }
+
     }
 }

@@ -19,7 +19,11 @@ namespace M3NCORE_EF.CodeFirst.Models
         public int Dorsal { get; set; }
         [Column(TypeName = "int")]
         public int Age { get; set; }
+        [Column(TypeName = "int")]
+        public int SoccerPositionId { get; set; }
         public virtual SoccerPosition SoccerPosition { get; set; }
+
+        public virtual List<Team> Team { get; set; }
 
     }
 }
